@@ -1,0 +1,25 @@
+{
+  "name": "grpc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r ts-node/register example/server.ts && node client.ts",
+    "example": "node example/server.ts && node example/client.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.2",
+    "@types/node": "^12.11.1",
+    "grpc": "^1.24.0",
+    "mongodb": "^3.3.2",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.19",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "ts-node": "^8.4.1"
+  }
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+import "./typings.proto";
+
+service RouteGuide {
+    rpc getCadet(Name) returns (Cadet) {}
+}
