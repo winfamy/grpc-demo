@@ -16,7 +16,7 @@
     "grpc": "^1.24.0",
     "mongodb": "^3.3.2",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.19",
+    "typeorm": "^0.2.25",
     "typescript": "^3.6.4"
   },
   "devDependencies": {
